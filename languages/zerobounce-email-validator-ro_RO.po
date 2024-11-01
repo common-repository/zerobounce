@@ -1,0 +1,70 @@
+# Translation of Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk) in Romanian
+# This file is distributed under the same license as the Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-10 10:33:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk)\n"
+
+#: admin/class-zerobounce-email-validator-admin.php:549
+msgid "Could not validate this email. Internal error occured."
+msgstr "Nu am putut să validez acest email. A apărut o eroare internă."
+
+#: admin/class-zerobounce-email-validator-admin.php:542
+msgid "You have entered an invalid email address."
+msgstr "Ai introdus o adresă de email nevalidă."
+
+#: admin/class-zerobounce-email-validator-admin.php:512
+#: admin/class-zerobounce-email-validator-admin.php:535
+#: admin/class-zerobounce-email-validator-admin.php:581
+#: admin/class-zerobounce-email-validator-admin.php:622
+#: admin/class-zerobounce-email-validator-admin.php:651
+#: admin/class-zerobounce-email-validator-admin.php:841
+msgid "Request is invalid. Please refresh the page and try again."
+msgstr "Cererea nu este validă. Te rog să împrospătezi pagina și să încerci din nou."
+
+#: admin/class-zerobounce-email-validator-admin.php:256
+msgid "Validation"
+msgstr "Validare"
+
+#: admin/class-zerobounce-email-validator-admin.php:249
+msgid "General"
+msgstr "Generale"
+
+#: admin/class-zerobounce-email-validator-admin.php:72
+msgid "Buy Credits"
+msgstr "Cumpără credite"
+
+#: admin/class-zerobounce-email-validator-admin.php:69
+msgid "Settings"
+msgstr "Setări"
+
+#. Plugin Name of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce Email Validator"
+msgstr "ZeroBounce Email Validator"
+
+#. Author URI of the plugin
+#: zerobounce-email-validator.php
+msgid "https://www.zerobounce.net/"
+msgstr "https://www.zerobounce.net/"
+
+#. Description of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce Email Validation Plugin"
+msgstr "Extensie ZeroBounce pentru Validarea Emailurilor"
+
+#. Plugin URI of the plugin
+#: zerobounce-email-validator.php
+msgid "https://wordpress.org/plugins/zerobounce/"
+msgstr "https://wordpress.org/plugins/zerobounce/"
+
+#. Author of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce"
+msgstr "ZeroBounce"

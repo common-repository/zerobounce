@@ -1,0 +1,844 @@
+# Translation of Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - ZeroBounce Email Verification &amp; Validation - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-06-21 15:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:43
+msgid "Validate"
+msgstr "Valider"
+
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:40
+msgid "Enter an email below to validate"
+msgstr "Saisissez un e-mail ci-dessous pour valider"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:57
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:65
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:45
+msgid "Date"
+msgstr "Date"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:44
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:43
+msgid "Sub Status"
+msgstr "Sous-statut"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:42
+msgid "Status"
+msgstr "Statut"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:41
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:42
+msgid "Email"
+msgstr "Adresse e-mail"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:40
+msgid "Source"
+msgstr "Source"
+
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:39
+msgid "ID"
+msgstr "ID"
+
+#: admin/partials/zerobounce-email-validator-admin-display.php:27
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:27
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:27
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:27
+msgid "Credits can be used for either validation or scoring. 1 credit = 1 successfully processed email address."
+msgstr "Les crédits peuvent être utilisés soit pour la validation, soit pour le scoring. 1 crédit = 1 adresse e-mail traitée avec succès."
+
+#: admin/partials/zerobounce-email-validator-admin-display.php:26
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:26
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:26
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:26
+msgid "credits"
+msgstr "crédits"
+
+#: admin/class-zerobounce-email-validator-admin.php:806
+msgid "Toxic"
+msgstr "Toxique"
+
+#: admin/class-zerobounce-email-validator-admin.php:803
+msgid "Disposable"
+msgstr "Jetable"
+
+#: admin/class-zerobounce-email-validator-admin.php:800
+msgid "Role Based Catch-All"
+msgstr "Fourre-tout basé sur les rôles"
+
+#: admin/class-zerobounce-email-validator-admin.php:797
+msgid "Alias Address"
+msgstr "Adresse pseudonyme"
+
+#: admin/class-zerobounce-email-validator-admin.php:794
+msgid "Not Accepting Mail"
+msgstr "Ne pas accepter les e-mails"
+
+#: admin/class-zerobounce-email-validator-admin.php:791
+msgid "Leading Period"
+msgstr "Période leader"
+
+#: admin/class-zerobounce-email-validator-admin.php:788
+msgid "IP Non-Routable"
+msgstr "IP non routable"
+
+#: admin/class-zerobounce-email-validator-admin.php:785
+msgid "Possible Typo"
+msgstr "Faute de frappe possible"
+
+#: admin/class-zerobounce-email-validator-admin.php:782
+msgid "Failed Syntax"
+msgstr "Syntaxe échouée"
+
+#: admin/class-zerobounce-email-validator-admin.php:779
+msgid "No DNS Entries"
+msgstr "Aucune entrée DNS"
+
+#: admin/class-zerobounce-email-validator-admin.php:776
+msgid "Mailbox Not Found"
+msgstr "Boîte aux lettres introuvable"
+
+#: admin/class-zerobounce-email-validator-admin.php:773
+msgid "Global Suppression"
+msgstr "Suppression mondiale"
+
+#: admin/class-zerobounce-email-validator-admin.php:770
+msgid "Role Based"
+msgstr "Basé sur le rôle"
+
+#: admin/class-zerobounce-email-validator-admin.php:767
+msgid "Possible Trap"
+msgstr "Piège possible"
+
+#: admin/class-zerobounce-email-validator-admin.php:764
+msgid "Exception Occured"
+msgstr "Une exception s’est produite"
+
+#: admin/class-zerobounce-email-validator-admin.php:761
+msgid "Quota Exceeded"
+msgstr "Quota dépassé"
+
+#: admin/class-zerobounce-email-validator-admin.php:758
+msgid "SMPT Failed"
+msgstr "Échec du SMTP"
+
+#: admin/class-zerobounce-email-validator-admin.php:755
+msgid "Timeout Exceeded"
+msgstr "Délai d’attente dépassé"
+
+#: admin/class-zerobounce-email-validator-admin.php:752
+msgid "Server Non-Responsive"
+msgstr "Le serveur ne répond pas"
+
+#: admin/class-zerobounce-email-validator-admin.php:749
+msgid "Forcible Disconnect"
+msgstr "Déconnexion forcée"
+
+#: admin/class-zerobounce-email-validator-admin.php:746
+msgid "Server Temporary Error"
+msgstr "Erreur temporaire du serveur"
+
+#: admin/class-zerobounce-email-validator-admin.php:743
+msgid "Greylisted"
+msgstr "Sur liste grise"
+
+#: admin/class-zerobounce-email-validator-admin.php:740
+msgid "Antispam"
+msgstr "Anti-spam"
+
+#: admin/class-zerobounce-email-validator-admin.php:716
+msgid "Block Free Services"
+msgstr "Bloquer les services gratuits"
+
+#: admin/class-zerobounce-email-validator-admin.php:493
+msgid "Error Code 3: Sorry, your API Key seems invalid! Please double check."
+msgstr "Code d’erreur 3: Désolé, votre clé API semble invalide! Veuillez vérifier."
+
+#: admin/class-zerobounce-email-validator-admin.php:484
+msgid "Error Code 2: Sorry, your API Key seems invalid! Please double check."
+msgstr "Code d’erreur 2: Désolé, votre clé API semble invalide! Veuillez vérifier."
+
+#: admin/class-zerobounce-email-validator-admin.php:473
+msgid "Error Code 1: Sorry, your API Key seems invalid! Please double check."
+msgstr "Code d’erreur 1: Désolé, votre clé API semble invalide! Veuillez vérifier."
+
+#: admin/class-zerobounce-email-validator-admin.php:396
+msgid "These are your email validation rules, where you can selectively allow or disallow emails based on status."
+msgstr "Il s’agit de vos règles de validation des e-mails, dans lesquelles vous pouvez autoriser ou refuser de manière sélective les e-mails en fonction de leur statut."
+
+#: admin/class-zerobounce-email-validator-admin.php:393
+msgid "These are the general settings that you must configure, like your ZeroBounce API key."
+msgstr "Ce sont les paramètres généraux que vous devez configurer, comme votre clé API ZeroBounce."
+
+#: admin/class-zerobounce-email-validator-admin.php:378
+msgid "Check to block email addresses from free mail services (e.g.: Yahoo, Gmail, Outlook, etc)."
+msgstr "Cochez pour bloquer les adresses e-mail des services de messagerie gratuits (par exemple : Yahoo, Gmail, Outlook, etc.)."
+
+#: admin/class-zerobounce-email-validator-admin.php:375
+msgid "Block free email services"
+msgstr "Bloquer les services de messagerie gratuits"
+
+#: admin/class-zerobounce-email-validator-admin.php:370
+msgid "Free email services"
+msgstr "Services de messagerie gratuits"
+
+#: admin/class-zerobounce-email-validator-admin.php:365
+msgid "Select on which status an Email passes validation on forms. We recommend \"Valid\", \"Catch-All\" and \"Unknown\" only."
+msgstr "Sélectionnez le statut sur lequel un e-mail passe la validation sur les formulaires. Nous recommandons uniquement “Valide”, “Catch-All” et “Inconnu”."
+
+#: admin/class-zerobounce-email-validator-admin.php:362
+#: admin/class-zerobounce-email-validator-admin.php:731
+msgid "Do Not Mail"
+msgstr "Ne pas envoyer d’e-mail"
+
+#: admin/class-zerobounce-email-validator-admin.php:361
+#: admin/class-zerobounce-email-validator-admin.php:728
+msgid "Abuse"
+msgstr "Abus"
+
+#: admin/class-zerobounce-email-validator-admin.php:360
+#: admin/class-zerobounce-email-validator-admin.php:725
+msgid "Spamtrap"
+msgstr "Piège à spam"
+
+#: admin/class-zerobounce-email-validator-admin.php:359
+#: admin/class-zerobounce-email-validator-admin.php:722
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: admin/class-zerobounce-email-validator-admin.php:358
+#: admin/class-zerobounce-email-validator-admin.php:719
+msgid "Catch-All"
+msgstr "Fourre-tout"
+
+#: admin/class-zerobounce-email-validator-admin.php:357
+#: admin/class-zerobounce-email-validator-admin.php:713
+msgid "Invalid"
+msgstr "Invalide"
+
+#: admin/class-zerobounce-email-validator-admin.php:356
+#: admin/class-zerobounce-email-validator-admin.php:710
+msgid "Valid"
+msgstr "Valide"
+
+#: admin/class-zerobounce-email-validator-admin.php:351
+msgid "Email will pass on status"
+msgstr "L’e-mail transmettra le statut"
+
+#: admin/class-zerobounce-email-validator-admin.php:342
+msgid "Select on which forms to validate email addresses. We recommend that you only enable the ones you actually have installed and are using. For example if you are using only WPForms, then select only WPForms."
+msgstr "Sélectionnez sur quels formulaires valider les adresses e-mail. Nous vous recommandons d’activer uniquement ceux que vous avez réellement installés et que vous utilisez. Par exemple, si vous utilisez uniquement WPForms, sélectionnez uniquement WPForms."
+
+#: admin/class-zerobounce-email-validator-admin.php:339
+msgid "BWS Forms"
+msgstr "Formulaires BWS"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:338
+msgid "Forminator Forms"
+msgstr "Formulaires Forminator"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:337
+msgid "Mailster Forms"
+msgstr "Formulaires Mailster"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:336
+msgid "WS Forms"
+msgstr "Formulaires WS"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:335
+msgid "Fluent Forms"
+msgstr "Formulaires Fluent"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:334
+msgid "Gravity Forms"
+msgstr "Formulaires Gravity"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:333
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr "MC4WP: Mailchimp pour WordPress"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:332
+msgid "WordPress Registration"
+msgstr "Inscription WordPress"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:331
+msgid "WordPress Post Comments"
+msgstr "Commentaires sur les publications WordPress"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:330
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:329
+msgid "Formidable Forms"
+msgstr "Formulaires Formidable"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:328
+msgid "Ninja Forms"
+msgstr "Formulaires Ninja"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:327
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Found in description list item.
+#: admin/class-zerobounce-email-validator-admin.php:326
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: admin/class-zerobounce-email-validator-admin.php:321
+msgid "Hook and validate forms"
+msgstr "Accrochez et validez les formulaires"
+
+#: admin/class-zerobounce-email-validator-admin.php:317
+msgid "Enter custom typo error message."
+msgstr "Saisissez un message d’erreur de faute de frappe personnalisé."
+
+#: admin/class-zerobounce-email-validator-admin.php:315
+msgid "* The custom error message you provide will be added before the suggested correction"
+msgstr "* Le message d’erreur personnalisé que vous fournissez sera ajouté avant la correction suggérée"
+
+#: admin/class-zerobounce-email-validator-admin.php:303
+#: admin/class-zerobounce-email-validator-admin.php:313
+msgid "Validate typos"
+msgstr "Valider les fautes de frappe"
+
+#: admin/class-zerobounce-email-validator-admin.php:300
+msgid "Typo validation"
+msgstr "Validation d’une faute de frappe"
+
+#: admin/class-zerobounce-email-validator-admin.php:296
+msgid "Enter custom invalid error message."
+msgstr "Saisissez un message d’erreur personnalisé non valide."
+
+#: admin/class-zerobounce-email-validator-admin.php:294
+msgid "* Note that the MailChimp integration does not support custom error message"
+msgstr "* Notez que l’intégration MailChimp ne prend pas en charge les messages d’erreur personnalisés"
+
+#: admin/class-zerobounce-email-validator-admin.php:290
+msgid "Custom Invalid Error Message"
+msgstr "Message d’erreur personnalisé non valide"
+
+#: admin/class-zerobounce-email-validator-admin.php:284
+msgid "Set the maximum API timeout in seconds. The plugin will wait for this limit after which it will abort validation."
+msgstr "Définissez le délai d’expiration maximum de l’API en secondes. Le plugin attendra cette limite après quoi il annulera la validation."
+
+#: admin/class-zerobounce-email-validator-admin.php:280
+msgid "API Timeout"
+msgstr "Délai d’expiration de l’API"
+
+#: admin/class-zerobounce-email-validator-admin.php:274
+msgid "* Only the authentication will be handled by our default servers"
+msgstr "* Seule l’authentification sera gérée par nos serveurs par défaut"
+
+#: admin/class-zerobounce-email-validator-admin.php:269
+msgid "API Location"
+msgstr "Emplacement de l’API"
+
+#: admin/class-zerobounce-email-validator-admin.php:264
+msgid "Please input your ZeroBounce API Key."
+msgstr "Veuillez saisir votre clé API ZeroBounce."
+
+#: admin/class-zerobounce-email-validator-admin.php:263
+msgid "Get API Key"
+msgstr "Obtenir la clé API"
+
+#: admin/class-zerobounce-email-validator-admin.php:259
+msgid "API Key"
+msgstr "Clé API"
+
+#: admin/class-zerobounce-email-validator-admin.php:233
+msgid "You have run out of ZeroBounce Credits! Please %sbuy more credits%s to continue validating emails."
+msgstr "Vous n’avez plus de crédits ZeroBounce! Veuillez %sacheter plus de crédits%s pour continuer à valider les e-mails."
+
+#: admin/class-zerobounce-email-validator-admin.php:221
+msgid "Please get your ZeroBounce API Key from %shere%s and save it inside the %ssettings page%s."
+msgstr "Veuillez obtenir votre clé API ZeroBounce auprès de %sici%s et enregistrez-la dans la %spage de paramètres%s."
+
+#. Screenshot description.
+#: admin/class-zerobounce-email-validator-admin.php:178
+#: admin/partials/zerobounce-email-validator-admin-display.php:23
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:23
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:23
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:23
+msgid "Logs"
+msgstr "Journaux"
+
+#: admin/class-zerobounce-email-validator-admin.php:178
+msgid "ZeroBounce Email Logs"
+msgstr "Journaux de courrier électronique ZeroBounce"
+
+#. Screenshot description.
+#: admin/class-zerobounce-email-validator-admin.php:176
+#: admin/partials/zerobounce-email-validator-admin-display.php:22
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:22
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:22
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:22
+msgid "Tools"
+msgstr "Outils"
+
+#: admin/class-zerobounce-email-validator-admin.php:176
+msgid "ZeroBounce Email Tools"
+msgstr "Outils de messagerie ZeroBounce"
+
+#: admin/class-zerobounce-email-validator-admin.php:174
+msgid "ZeroBounce Email Settings"
+msgstr "Paramètres de messagerie ZeroBounce"
+
+#. Screenshot description.
+#: admin/class-zerobounce-email-validator-admin.php:172
+#: admin/partials/zerobounce-email-validator-admin-display.php:20
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:20
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:20
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:20
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: admin/class-zerobounce-email-validator-admin.php:172
+msgid "ZeroBounce Email Dashboard"
+msgstr "Tableau de bord de messagerie ZeroBounce"
+
+#: admin/class-zerobounce-email-validator-admin.php:170
+msgid "ZeroBounce Email"
+msgstr "ZeroBounce Courriel"
+
+#: public/class-zerobounce-email-validator-form-public.php:66
+#: public/class-zerobounce-email-validator-public.php:105
+msgid "Sorry, upon checking we cannot accept this email address."
+msgstr "Désolé, après vérification, nous ne pouvons pas accepter cette adresse e-mail."
+
+#: admin/class-zerobounce-email-validator-admin.php:538
+msgid "Could not validate this email. Internal error occured."
+msgstr "Impossible de valider cet e-mail. Une erreur interne s’est produite."
+
+#: admin/class-zerobounce-email-validator-admin.php:531
+msgid "You have entered an invalid email address."
+msgstr "Vous avez saisi une adresse e-mail invalide."
+
+#: admin/class-zerobounce-email-validator-admin.php:501
+#: admin/class-zerobounce-email-validator-admin.php:524
+#: admin/class-zerobounce-email-validator-admin.php:570
+#: admin/class-zerobounce-email-validator-admin.php:611
+#: admin/class-zerobounce-email-validator-admin.php:640
+#: admin/class-zerobounce-email-validator-admin.php:830
+msgid "Request is invalid. Please refresh the page and try again."
+msgstr "La requête est invalide. Veuillez rafraîchir la page et réessayer."
+
+#: admin/class-zerobounce-email-validator-admin.php:250
+msgid "Validation"
+msgstr "Validation"
+
+#: admin/class-zerobounce-email-validator-admin.php:243
+msgid "General"
+msgstr "Général"
+
+#: admin/class-zerobounce-email-validator-admin.php:71
+#: admin/partials/zerobounce-email-validator-admin-display.php:28
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:28
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:28
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:28
+msgid "Buy Credits"
+msgstr "Acheter des crédits"
+
+#. Screenshot description.
+#: admin/class-zerobounce-email-validator-admin.php:68
+#: admin/class-zerobounce-email-validator-admin.php:174
+#: admin/partials/zerobounce-email-validator-admin-display.php:21
+#: admin/partials/zerobounce-email-validator-admin-logs-display.php:21
+#: admin/partials/zerobounce-email-validator-admin-settings-display.php:21
+#: admin/partials/zerobounce-email-validator-admin-tools-display.php:21
+msgid "Settings"
+msgstr "Réglages"
+
+#. Plugin Name of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce Email Validator"
+msgstr "ZeroBounce Email Validator"
+
+#. Author URI of the plugin
+#: zerobounce-email-validator.php
+msgid "https://www.zerobounce.net/"
+msgstr "https://www.zerobounce.net/"
+
+#. Description of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce Email Validation Plugin"
+msgstr "Extension de validation d‘e-mail ZeroBounce"
+
+#. Plugin URI of the plugin
+#: zerobounce-email-validator.php
+msgid "https://wordpress.org/plugins/zerobounce/"
+msgstr "https://wordpress.org/plugins/zerobounce/"
+
+#. Author of the plugin
+#: zerobounce-email-validator.php
+msgid "ZeroBounce"
+msgstr "ZeroBounce"
+
+#. Found in description paragraph.
+msgid "Need an email validation tool to block invalid and high-risk emails on your WordPress website?"
+msgstr "Vous avez besoin d’un outil de validation d’e-mails pour bloquer les e-mails invalides et à haut risque sur votre site WordPress?"
+
+#. Plugin name.
+msgid "ZeroBounce Email Verification &amp; Validation"
+msgstr "Vérification et validation des e-mails ZeroBounce"
+
+#. Found in faq paragraph.
+msgid "The email verifier plugin provides monthly credit usage charts and will notify you when your email validation credits run low."
+msgstr "L’extension de vérification des e-mails fournit des graphiques mensuels d’utilisation des crédits et vous avertit lorsque vos crédits de validation des e-mails sont bas."
+
+#. Found in faq paragraph.
+msgid "Your forms and the plugin will continue to function normally. However, you cannot verify incoming emails until you acquire more credits."
+msgstr "Vos formulaires et l’extension continueront à fonctionner normalement. Cependant, vous ne pouvez pas vérifier les e-mails entrants tant que vous n’avez pas acquis plus de crédits."
+
+#. Found in faq paragraph.
+msgid "You can test the email verification plugin and clean emails regularly by creating a free account. All users get instant access to 100 free monthly email verifications at no cost. Visit https://www.zerobounce.net/members/signin/register to get started."
+msgstr "Vous pouvez tester l’extension de vérification des e-mails et nettoyer régulièrement les e-mails en créant un compte gratuit. Tous les utilisateurs bénéficient d’un accès instantané à 100 vérifications mensuelles gratuites des e-mails, sans frais. Rendez-vous sur https://www.zerobounce.net/members/signin/register pour commencer."
+
+#. Found in faq paragraph.
+msgid "There is no charge to install and use the ZeroBounce email verification plugin. However, you will require credits to validate incoming email addresses on your forms. The rate is 1 ZeroBounce credit to verify 1 email address."
+msgstr "Il n’y a pas de frais pour installer et utiliser l’extension de vérification d’e-mail ZeroBounce. Cependant, vous aurez besoin de crédits pour valider les adresses e-mail entrantes sur vos formulaires. Le tarif est de 1 crédit ZeroBounce pour vérifier 1 adresse e-mail."
+
+#. Found in faq paragraph.
+msgid "Our email validation plugin integrates with popular forms, including WordPress registration, post comments, WooCommerce, and more. The plugin “hooks” into the form and verifies incoming email address submissions in real time. Once our email verifier confirms the status using our API, it will allow or block the email address based on your preferences."
+msgstr "Notre extension de validation des e-mails s’intègre aux formulaires populaires, notamment l’inscription à WordPress, les commentaires de publication, WooCommerce, etc. L’extension « s’accroche » au formulaire et vérifie les adresses e-mail transmises entrantes en temps réel. Une fois que notre vérificateur d’e-mails a confirmé le statut à l’aide de notre API, il autorisera ou bloquera l’adresse e-mail en fonction de vos préférences."
+
+#. Found in faq paragraph.
+msgid "Using the ZeroBounce plugin, you can block low-quality email addresses and protect your email deliverability."
+msgstr "À l’aide d l’extension ZeroBounce, vous pouvez bloquer les adresses e-mail de mauvaise qualité et protéger la délivrabilité de vos e-mails."
+
+#. Found in faq paragraph.
+msgid "Email verification is necessary for businesses to ensure your email list contains valid data. Whenever someone signs up on your forms with an invalid or high-risk email address, it leads to future issues, including higher email bounce rates, more spam placement, and a potential email blacklisting."
+msgstr "La vérification des adresses e-mail est nécessaire pour les entreprises afin de s’assurer que votre liste de diffusion contient des données valides. Chaque fois que quelqu’un s’inscrit sur vos formulaires avec une adresse e-mail invalide ou à haut risque, cela entraînera des problèmes futurs, notamment des taux de rebond d’e-mails plus élevés, un placement plus important de spam et une liste noire potentielle d’e-mails."
+
+#. Found in faq paragraph.
+msgid "Email verification is the process of determining if an email address is valid and in use. Using an email verifier, you can identify and block invalid and high-risk email types such as disposable emails, spam traps, and abuse emails."
+msgstr "La vérification de l’adresse e-mail est le processus qui permet de déterminer si une adresse e-mail est valide et utilisée. À l’aide d’un vérificateur d’e-mails, vous pouvez identifier et bloquer les types d’e-mails non valides et à haut risque, tels que les e-mails jetables, les pièges à spam et les e-mails abusifs."
+
+#. Found in faq header.
+msgid "What happens if I run out of email verification credits?"
+msgstr "Que se passe-t-il si je n’ai plus de crédits de vérification d’adresse e-mail?"
+
+#. Found in faq header.
+msgid "Is the email verification plugin free?"
+msgstr "L’extension de vérification des e-mails est-elle gratuite?"
+
+#. Found in faq header.
+msgid "How does the ZeroBounce email verification plugin work?"
+msgstr "Comment fonctionne l’extension de vérification des e-mails ZeroBounce?"
+
+#. Found in faq header.
+msgid "Why do I need to verify emails?"
+msgstr "Pourquoi dois-je vérifier les e-mails?"
+
+#. Found in faq header.
+msgid "What is email verification?"
+msgstr "Qu’est-ce que la vérification des e-mails?"
+
+#. Found in description paragraph.
+msgid "The ZeroBounce email verification plugin assists users by validating email addresses entered into your registration forms, comments sections, eCommerce shops, and more. Install the plugin, connect your API key, and select the forms you want to monitor with email validation."
+msgstr "L’extension de vérification des e-mails ZeroBounce aide les utilisateurs en validant les adresses e-mail saisies dans vos formulaires d’inscription, vos sections de commentaires, vos boutiques de commerce électronique, etc. Installez l’extension, connectez votre clé API et sélectionnez les formulaires que vous souhaitez surveiller avec la validation par e-mail."
+
+#. Found in description list item.
+msgid "<strong>Keep your comments section clean</strong>"
+msgstr "<strong>Gardez votre section de commentaires propre</strong>"
+
+#. Found in description list item.
+msgid "<strong>Block spammers and spoofers</strong>"
+msgstr "<strong>Bloquez les spammeurs et les usurpateurs d’identité</strong>"
+
+#. Found in description list item.
+msgid "<strong>Eliminate fraudulent, untrustworthy shoppers</strong>"
+msgstr "<strong>Éliminez les acheteurs frauduleux et indignes de confiance</strong>"
+
+#. Found in description list item.
+msgid "<strong>Improve email deliverability</strong>"
+msgstr "<strong>Améliorez la délivrabilité de vos e-mails</strong>"
+
+#. Found in description list item.
+msgid "<strong>Protect your email sender reputation</strong>"
+msgstr "<strong>Protégez votré réputation d’expéditeur d’e-mails</strong>"
+
+#. Found in description list item.
+msgid "<strong>Boost your inbox placement</strong>"
+msgstr "<strong>Boostez le placement en boîte de réception</strong>"
+
+#. Found in description list item.
+msgid "<strong>Reduce your email bounce rate</strong>"
+msgstr "<strong>Réduisez le taux de rebond de vos e-mails</strong>"
+
+#. Found in description list item.
+msgid "<strong>Keep your email list clean &amp; accurate</strong>"
+msgstr "<strong>Gardez votre liste de diffusion propre et précise</strong>"
+
+#. Found in description list item.
+msgid "<strong>Email validation API logs</strong> - Keep track of monthly email verifications, including status, sub-status, IP, date, and credits used"
+msgstr "<strong>Journaux de l’API de validation des e-mails</strong> - Gardez une trace des vérifications mensuelles des e-mails, y compris le statut, le sous-statut, l’adresse IP, la date et les crédits utilisés"
+
+#. Found in description list item.
+msgid "<strong>Fast manual email validation</strong> - Verify any email address in the tools section using our interactive form"
+msgstr "<strong>Validation manuelle immédiate d’e-mail</strong> - Vérifiez n’importe quelle adresse e-mail dans la section des outils à l’aide de notre formulaire interactif"
+
+#. Found in description list item.
+msgid "<strong>Email verification for 9 form types</strong> - Easily select which forms you want to protect with email validation"
+msgstr "<strong>Vérification des e-mails pour neuf types de formulaires</strong> - Sélectionnez facilement les formulaires que vous souhaitez protéger avec la validation d’e-mails"
+
+#. Found in description list item.
+msgid "<strong>Choose what to accept</strong> - Create your own rules for email validation and disallow emails based on status"
+msgstr "<strong>Choisir ce que vous souhaitez accepter</strong> - Créez vos propres règles pour la validation d’e-mails et interdisez les e-mails en fonction de leur type"
+
+#. Found in description list item.
+msgid "<strong>Detect more than 30+ email address types</strong> - Including invalid, abuse, disposable, spam trap, toxic domains, catch-all, and more"
+msgstr "<strong>Détectez plus de 30+ types d’adresses e-mail</strong> - y compris les adresses non valides, abusives, jetables, pièges à spam, domaines toxiques, attrape-tout, etc"
+
+#. Found in description list item.
+msgid "<strong>Automated real-time email validation</strong> - Automatically prevent selected email types from creating accounts, leaving comments, or signing up"
+msgstr "<strong>Validation automatisée des e-mails en temps réel</strong> - Empêchez automatiquement les types d’e-mails sélectionnés de créer des comptes, de laisser des commentaires ou de s’inscrire"
+
+#. Found in description header.
+msgid "Benefits"
+msgstr "Avantages"
+
+#. Found in description header.
+msgid "Key Features"
+msgstr "Fonctions clés"
+
+#. Found in installation paragraph.
+msgid "That's it! You are now automatically validating emails and reducing abuse, spam and more."
+msgstr "Voilà! Vous validez désormais automatiquement les e-mails et réduisez les abus, les spams et plus encore."
+
+#. Found in installation list item.
+msgid "Select which forms you would like to validate, click the relevant checkboxes."
+msgstr "Sélectionnez les formulaires dont vous souhaitez valider les emails en cochant les cases correspondantes."
+
+#. Found in installation list item.
+msgid "Go to the plugin Settings screen and set your API Key. You can find your <a href=\"https://www.zerobounce.net/members/API\">api key here</a>."
+msgstr "Accédez à l’écran Paramètres de l’extension et saisissez votre clé API. Vous pouvez trouver votre <a href=“https://www.zerobounce.net/members/API”>clé api ici</a>."
+
+#. Found in description paragraph.
+msgid "And more support is being added gradually."
+msgstr "Et d’autres extensions sont supportés progressivement."
+
+#. Found in description header.
+msgid "Supported Forms/Plugins"
+msgstr "Formulaires/Extensions pris en charge"
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' screen in WordPress"
+msgstr "Activer l’extension via la page « Extensions » de WordPress"
+
+#. Found in installation list item.
+msgid "Upload the plugin files to the <code>/wp-content/plugins/</code> directory, or install the plugin through the WordPress plugins screen directly."
+msgstr "Téléchargez les fichiers de l’extension dans le <code>/wp-content/plugins/</code> répertoire ou installez l’extension directement via l’écran des extensions WordPress."
+
+#. Found in changelog list item.
+msgid "Added support for translations"
+msgstr "Ajout du support pour les traductions"
+
+#. Found in changelog list item.
+msgid "Updated API Key validation"
+msgstr "Validation de la clé API mise à jour"
+
+#. Found in changelog list item.
+msgid "Added support for typos - Did you mean"
+msgstr "Ajout de la prise en charge des fautes de frappe - Vouliez-vous dire"
+
+#. Found in changelog list item.
+msgid "Fixed typos"
+msgstr "Correction de fautes de frappe"
+
+#. Found in changelog list item.
+msgid "Moved ZeroBounce button, in Admin Menu, under Plugins"
+msgstr "Déplacement du bouton ZeroBounce, dans le menu général, sous Extensions"
+
+#. Found in changelog list item.
+msgid "Updated the performance of APIKey validation"
+msgstr "Mise à jour des performances de la validation de la clé API"
+
+#. Found in changelog list item.
+msgid "Updated Validation Status graph to status logs for 'Block Free Services'"
+msgstr "Mise à jour du graphique de l’état de validation des journaux d’état pour « Bloquer les emails gratuits »"
+
+#. Found in changelog list item.
+msgid "Updated plugin tags"
+msgstr "Mise à jour des balises de l’extension"
+
+#. Found in changelog list item.
+msgid "Fixed status related bugs"
+msgstr "Correction de bogues liés au type"
+
+#. Found in changelog list item.
+msgid "Added support for BWS Forms (multi-language forms)"
+msgstr "Ajout de la prise en charge des formulaires BWS (formulaires multilingues)"
+
+#. Found in changelog list item.
+msgid "Added status for 'Block Free Services'"
+msgstr "Ajout de l’option « Bloquer les emails gratuits »"
+
+#. Found in changelog list item.
+msgid "Added option to block email addresses from free email services"
+msgstr "Ajout d’une option pour bloquer les adresses e-mail des services de messagerie gratuits"
+
+#. Found in changelog list item.
+msgid "Added support for Forminator Forms"
+msgstr "Ajout de la prise en charge de Forminator Forms"
+
+#. Found in changelog list item.
+msgid "Added support for Mailster Forms"
+msgstr "Ajout de la prise en charge des formulaires Mailster"
+
+#. Found in changelog list item.
+msgid "Added support for WS Forms"
+msgstr "Ajout de la prise en charge de WS Forms"
+
+#. Found in changelog list item.
+msgid "Added support for Wordpress Comment Forms"
+msgstr "Ajout de la prise en charge des formulaires de commentaires WordPress"
+
+#. Found in changelog list item.
+msgid "Added support for Wordpress Registration Forms"
+msgstr "Ajout de la prise en charge des formulaires d’inscription WordPress"
+
+#. Found in changelog list item.
+msgid "Added support for U.S.A. API"
+msgstr "Ajout de la prise en charge de l’API pour les États-Unis"
+
+#. Found in changelog list item.
+msgid "Added support for Wordpress Multisite"
+msgstr "Ajout de la prise en charge de WordPress Multisite"
+
+#. Found in changelog list item.
+msgid "Added custom error field for validator"
+msgstr "Ajout d’un champ d’erreur personnalisé pour le validateur"
+
+#. Found in changelog list item.
+msgid "Fixed error message on admin tools page for email validation"
+msgstr "Correction d’un message d’erreur sur la page des outils d’administration pour la validation des e-mails"
+
+#. Found in changelog list item.
+msgid "Added support for Fluent Forms"
+msgstr "Ajout de la prise en charge de Fluent Forms"
+
+#. Found in changelog list item.
+msgid "Updated for WordPress 6.3"
+msgstr "Mise à jour pour WordPress 6.3"
+
+#. Found in changelog list item.
+msgid "Fixed potential XSS bug on saving API Key"
+msgstr "Correction d’un bug XSS potentiel lors de l’enregistrement de la clé API"
+
+#. Found in changelog list item.
+msgid "Fixed CSS bug"
+msgstr "Correction d’un bug CSS"
+
+#. Found in changelog list item.
+msgid "Gravity Forms logs are clickable (takes you to respective form)"
+msgstr "Les journaux Gravity Forms sont cliquables (Et vous mènent au formulaire correspondant)"
+
+#. Found in changelog list item.
+msgid "Fixed and Improved Gravity Forms support up to latest version (2.7.8)"
+msgstr "Correction et amélioration de la prise en charge de Gravity Forms jusqu’à la dernière version (2.7.8)"
+
+#. Found in changelog list item.
+msgid "Bug fixes and improvements"
+msgstr "Corrections de bogues et améliorations"
+
+#. Found in changelog list item.
+msgid "Fixed bug in Gravity Forms validation"
+msgstr "Correction d’un bug dans la validation de Gravity Forms"
+
+#. Found in changelog list item.
+msgid "Updated images"
+msgstr "Images mises à jour"
+
+#. Found in changelog list item.
+msgid "Fixed bug in admin settings with validation status"
+msgstr "Correction d’un bug dans les paramètres d’administration avec l’état de validation"
+
+#. Found in changelog list item.
+msgid "Fixed typo when activating first time plugin"
+msgstr "Correction d’une faute de frappe lors de la première activation du plugin"
+
+#. Found in changelog list item.
+msgid "Fixed bug where email needed url enconding"
+msgstr "Correction d’un bug où l’e-mail nécessitait un encodage d’url"
+
+#. Found in changelog list item.
+msgid "Updated tools page and removed empty box for now"
+msgstr "Mise à jour de la page d’outils et suppression de la boîte vide pour l’instant"
+
+#. Found in changelog list item.
+msgid "When activating the plugin for the first time, the default validation statuses are set"
+msgstr "Lors de la première activation de l’extension, les types de validation par défaut sont prédéfinis"
+
+#. Found in changelog list item.
+msgid "When activating the plugin for the first time, all supported forms are checked"
+msgstr "Lors de la première activation de l’extension, tous les formulaires pris en charge sont cochés"
+
+#. Found in changelog list item.
+msgid "Added API Key validation when saving it"
+msgstr "Ajout de la validation de la clé API lors de l’enregistrement"
+
+#. Found in changelog list item.
+msgid "Improved message notification when no API Key is set"
+msgstr "Amélioration de la notification lorsqu’aucune clé API n’est définie"
+
+#. Found in changelog list item.
+msgid "Updated plugin description URLs"
+msgstr "Mise à jour des URL de description de l’extension"
+
+#. Found in changelog list item.
+msgid "Improved API Key settings page input"
+msgstr "Amélioration de l’entrée de la page des paramètres de la clé API"
+
+#. Found in changelog list item.
+msgid "Fixed typo in Admin settings page"
+msgstr "Correction d’une faute de frappe dans la page des paramètres d’administration"
+
+#. Found in changelog list item.
+msgid "Fixed bug where WooCommerce validation was not activating"
+msgstr "Correction d’un bug où la validation WooCommerce ne s’activait pas"
+
+#. Found in changelog list item.
+msgid "Added support for Gravity Forms"
+msgstr "Ajout de la prise en charge de Gravity Forms"
+
+#. Found in changelog list item.
+msgid "Added support for MC4WP: Mailchimp for WordPress"
+msgstr "Ajout de la prise en charge de MC4WP : Mailchimp pour WordPress"
+
+#. Found in changelog list item.
+msgid "Full rewamp of the plugin"
+msgstr "Mettre à jour complète du module d’extension"
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr "Version initiale"
